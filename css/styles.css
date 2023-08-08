@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  --color-body: #918ca4;
+  color: var(--color-body);
   font-size: 2.4rem;
   line-height: 1.5;
 }
@@ -20,7 +20,8 @@ body {
 h1,
 h2,
 h3 {
-  --color-headings: #1b0760;
+  color: var(--color-headings);
+  margin-bottom: 1rem;
 }
 
 h1 {
